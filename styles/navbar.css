@@ -1,0 +1,65 @@
+@import './colors.css';
+
+.nav_bar {
+    background-color: var(--transparente);
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.logo {
+    font-family: boldFont;
+    cursor: default;
+}
+
+.logo:hover {
+    color: var(--hover);
+}
+
+.nav_option_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4%;
+}
+
+.single_option {
+    margin-left: 16px;
+    margin-right: 16px;
+    font-family: regularFont;
+    color: var(--textColorRegular);
+    cursor: pointer;
+}
+
+.single_option:hover {
+    color: var(--hover);
+}
+
+.contact_button {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    font-family: regularFont;
+    font-size: large;
+    background-color: var(--background);
+    border: 2px solid var(--outline);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact_button:hover {
+    background-color: var(--hover);
+    color: var(--white);
+}
+
+.divider {
+    height: 8%;
+    position: absolute;
+    width: 100%;
+    border-bottom: 2px solid var(--divider);
+    z-index: -1;
+}

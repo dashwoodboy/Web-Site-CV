@@ -1,0 +1,1 @@
+export const navBarOptions = ['Home', 'Hobbies', 'Projects', 'Qualifications']

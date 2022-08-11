@@ -1,0 +1,43 @@
+@import './navbar.css';
+@import './homepage.css';
+
+@font-face {
+    font-family: regularFont;
+    src: url(GalanoGrotesqueRegular.otf);
+}
+
+@font-face {
+    font-family: boldFont;
+    src: url(GalanoGrotesqueBold.otf);
+}
+
+html, body, h1 {
+    margin: 0px;
+    font-family: boldFont;
+}
+
+.page_container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.screen_area_container {
+    display: flex;
+    height: 92%;
+    justify-content: center;
+}
+
+.page_title {
+    margin-top: 12px;
+    color: var(--hover);
+    font-size: 40px;
+}
+
+.column {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

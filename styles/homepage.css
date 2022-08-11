@@ -1,0 +1,49 @@
+
+.profile_image {
+    position: absolute;
+    width: 50%;
+    height: 92%;
+    right: 0;
+}
+
+.left_side_homepage_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    width: 50%;
+    height: 92%;
+    left: 0;
+}
+
+.title_text {
+    font-size: 80px;
+    cursor: default;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.title_text:hover {
+    font-size: 100px;
+    color: var(--hover);
+}
+
+.find_more_button {
+    margin-top: 40px;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1.4%;
+    padding-bottom: 1.4%;
+    font-family: regularFont;
+    font-size: large;
+    background-color: var(--background);
+    border: 2px solid var(--outline);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.find_more_button:hover {
+    background-color: var(--hover);
+    color: var(--white);
+}
