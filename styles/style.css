@@ -1,6 +1,7 @@
 @import './navbar.css';
 @import './homepage.css';
 @import './carousel.css';
+@import './contacts.css';
 
 @font-face {
     font-family: regularFont;
