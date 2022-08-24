@@ -7,10 +7,15 @@ import { NavOptions } from './NavOptions';
 export function NavBar() {
     return (
         <div className='nav_bar'>
-            <h1 className='logo'>{subjectName}</h1>
-            <NavOptions/>
-            <NavContactButton/>
-            <Divider/>
+            <div className='nav_elem'>
+                <h1 className='logo'>{subjectName}</h1>
+            </div>
+            <div className='nav_elem'>
+                <NavOptions/>
+            </div>
+            <div className='nav_elem'>
+                <NavContactButton/>
+            </div>
         </div>
     )
 }

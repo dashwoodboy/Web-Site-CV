@@ -2,6 +2,7 @@
 @import './homepage.css';
 @import './carousel.css';
 @import './contacts.css';
+@import './qualification.css';
 
 @font-face {
     font-family: regularFont;
@@ -35,6 +36,7 @@ html, body, h1 {
     margin-bottom: 12px;
     color: var(--hover);
     font-size: 40px;
+    cursor: default;
 }
 
 .column {
@@ -43,4 +45,26 @@ html, body, h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.sub_title {
+    color: var(--hover);
+    margin-top: 26px;
+}
+
+.find-enter{
+   opacity: 0;
+}
+.find-exit{
+   opacity: 1;
+}
+.find-enter-active{
+   opacity: 1;
+}
+.find-exit-active{
+   opacity: 0;
+}
+.find-enter-active,
+.find-exit-active{
+   transition: opacity 1500ms;
 }

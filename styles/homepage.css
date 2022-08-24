@@ -47,3 +47,23 @@
     background-color: var(--hover);
     color: var(--white);
 }
+
+.about_me {
+    margin-left: 26px;
+    margin-right: 26px;
+    text-align: justify;
+}
+
+.back_button {
+    background-color: transparent;
+    border: 0px;
+    font-size: 70px;
+    font-weight:bolder;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 54px;
+}
+
+.back_button:hover {
+    color: var(--hover);
+}

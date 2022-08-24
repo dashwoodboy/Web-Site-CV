@@ -19,6 +19,7 @@ export function CarouselElement({hobby} : {hobby: Hobby}) {
 export function Carousel({hobbies} : {hobbies: Hobby[]}) {
     
     const [index, setIndex] = useState(0)
+    const [btn, setBtn] = useState(false)
 
     useEffect(() => {
         const intervalId = setInterval(()=>{
@@ -31,11 +32,23 @@ export function Carousel({hobbies} : {hobbies: Hobby[]}) {
         }, 5000)
 
         return () => clearInterval(intervalId)
-    },[])
+    },[btn])
+
+    function click(plus: boolean) {
+        setIndex(it => {
+            setBtn(bt => !bt)
+
+            const val = plus? it + 1 : it - 1
+
+            return val >= hobbies.length? 0 : val
+        })
+    }
 
     return(
         <div className="carousel_container">
+            <button className="back_button_carousel" onClick={() => click(false)}>{'<'}</button>
             <CarouselElement hobby={hobbies[index]}/>
+            <button className="next_button_carousel" onClick={() => click(true)}>{'>'}</button>
         </div>
     )
 }

@@ -37,3 +37,41 @@
 .carousel_text {
     font-family: regularFont;
 }
+
+.back_button_carousel {
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    top: 52%;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0px;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.back_button_carousel:hover {
+    opacity: 1;
+}
+
+.next_button_carousel {
+    position: absolute;
+    right: 0;
+    z-index: 10;
+    top: 52%;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0px;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.next_button_carousel:hover {
+    opacity: 1;
+}
