@@ -1,6 +1,7 @@
 .carousel_container {
     width: 100%;
     height: 92%;
+    overflow: scroll;
 }
 
 .carousel_right {
@@ -21,6 +22,20 @@
     width: 50%;
     height: 100%;
     align-items: center;
+}
+
+@media only screen and (max-width: 1080px) {
+    .carousel_right {
+        bottom: -14%;
+        width: 100%;
+        height: 50%;
+    }
+    
+    .carousel_left {
+        top: 14%;
+        width: 100%;
+        height: 50%;
+    }
 }
 
 .hobby_image{

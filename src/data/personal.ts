@@ -29,10 +29,10 @@ export class Hobby {
 
 
 export const hobbies = [
-    new Hobby('Read', 'I love read books about science.', '/images/reading.jpeg'), 
-    new Hobby('Search new technologies', 'Need to be constantly searching for new technologies and learning more', '/images/technology.jpeg'), 
-    new Hobby('Mechanic', 'I love car engines, repairing and understanding how everything works', '/images/engine.jpeg'), 
-    new Hobby('Scouts', 'Member os SCOUTS movement since 2015', '/images/scouts.jpeg')
+    new Hobby('Read', 'I love read books about science.', 'https://crossworkingbucket.s3.eu-west-2.amazonaws.com/reading.jpeg'), 
+    new Hobby('Search new technologies', 'Need to be constantly searching for new technologies and learning more', 'https://crossworkingbucket.s3.eu-west-2.amazonaws.com/technology.jpeg'), 
+    new Hobby('Mechanic', 'I love car engines, repairing and understanding how everything works', 'https://crossworkingbucket.s3.eu-west-2.amazonaws.com/engine.jpeg'), 
+    new Hobby('Scouts', 'Member os SCOUTS movement since 2015', 'https://crossworkingbucket.s3.eu-west-2.amazonaws.com/scouts.jpeg')
 ]
 
 export class Qualification {
