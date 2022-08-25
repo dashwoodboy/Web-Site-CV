@@ -6,7 +6,7 @@ export function NavOptions() {
     
     return(
         <>
-            {navBarOptions.map(option => <NavSingleOption key={option} optionName={option} />)}
+            {navBarOptions.map(option => <NavSingleOption key={option.name} option={option} />)}
         </>
     )
 }

@@ -38,8 +38,9 @@ export function Carousel({hobbies} : {hobbies: Hobby[]}) {
         setIndex(it => {
             setBtn(bt => !bt)
 
-            const val = plus? it + 1 : it - 1
-
+            const newValue = plus? it + 1 : it - 1
+            const val = newValue < 0 ? hobbies.length -1 : newValue
+            
             return val >= hobbies.length? 0 : val
         })
     }
