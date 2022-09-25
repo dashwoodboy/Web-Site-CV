@@ -29,10 +29,10 @@ export class Hobby {
 
 
 export const hobbies = [
-    new Hobby('Read', 'I love read books about science.', 'https://crossworkingbucket.s3.eu-west-2.amazonaws.com/reading.jpeg'), 
-    new Hobby('Search new technologies', 'Need to be constantly searching for new technologies and learning more', 'https://crossworkingbucket.s3.eu-west-2.amazonaws.com/technology.jpeg'), 
+    new Hobby('Reading', 'I love read books about science.', 'https://crossworkingbucket.s3.eu-west-2.amazonaws.com/reading.jpeg'), 
+    new Hobby('Searching new technologies', 'Need to be constantly searching for new technologies and learning more', 'https://crossworkingbucket.s3.eu-west-2.amazonaws.com/technology.jpeg'), 
     new Hobby('Mechanic', 'I love car engines, repairing and understanding how everything works', 'https://crossworkingbucket.s3.eu-west-2.amazonaws.com/engine.jpeg'), 
-    new Hobby('Scouts', 'Member os SCOUTS movement since 2015', 'https://crossworkingbucket.s3.eu-west-2.amazonaws.com/scouts.jpeg')
+    new Hobby('Scouts', 'Member of SCOUTS movement since 2015', 'https://crossworkingbucket.s3.eu-west-2.amazonaws.com/scouts.jpeg')
 ]
 
 export class Qualification {
@@ -89,4 +89,4 @@ export const volunteering = [
     )
 ]
 
-export const aboutMe = 'My name is David Lourenço and I\'m 21 years old. I love search for new technologies, new ways to improve my work. I always need to know how the things work, so as a child I disassemble all the electronics we have in our house. My father is a mechanic what made me to develop an interest about mechanic too, especially engines, how they work and  how to fix them. In 2015 I joined the SCOUTS movement and my journey as a scout stared, learning how to grow as a better Human. Recently I have discovered how much I like to read astronomy books as well as scientific essay. I\'m very friendly, dynamic and a team player.'
+export const aboutMe = 'My name is David Lourenço and I\'m 21 years old. I love searching for new technologies and new ways to improve my work. I always need to know how things work, so as a child I disassemble all the electronics we have in our house. My father is a mechanic and that made me want to develop an interest about mechanic too, especially engines, how they work and  how to fix them. In 2015 I joined the SCOUTS movement and my journey as a scout started, learning how to grow as a better Human. Recently I have discovered how much I like reading astronomy books as well as scientific essays. I\'m very friendly, dynamic and a team player.'
